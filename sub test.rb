@@ -9,22 +9,22 @@ class Add_test < Minitest::Test
         assert_equal(15, subtraction(30, 15))
     end
     def test_3
-        assert_equal(12, subtraction(10, 2))
+        assert_equal(12, subtraction(14, 2))
     end
     def test_4
-        assert_equal(15, subtraction(33, 16))
+        assert_equal(15, subtraction(31, 16))
     end
     def test_5
-        assert_equal(53, subtraction(25, 18))
+        assert_equal(53, subtraction(71, 18))
     end
     def test_6
-        assert_equal(88, subtraction(61, 19))
+        assert_equal(88, subtraction(107, 19))
     end
     def test_7
-        assert_equal(94, subtraction(45, 16))
+        assert_equal(94, subtraction(110, 16))
     end
     def test_8
-        assert_equal(72, subtraction(41, 90))
+        assert_equal(72, subtraction(102, 30))
     end
     def test_9
         assert_equal(7, subtraction(10, 61))
