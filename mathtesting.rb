@@ -1,18 +1,18 @@
 require "minitest/autorun"
-require_relative "add.rb"
+require_relative "math.rb"
 
 class Add_test < Minitest::Test
     def test_1
-        assert_equal(1, addition(10, 1))
+        assert_equal(11, addition(10, 1))
     end
     def test_2
-        assert_equal(11, addition(10, 1))
+        assert_equal(22, addition(21, 1))
     end
     def test_3
         assert_equal(37, addition(15, 22))
     end
     def test_4
-        assert_equal(59, addition(33, 16))
+        assert_equal(49, addition(33, 16))
     end
     def test_5
         assert_equal(43, addition(25, 18))
@@ -34,4 +34,3 @@ class Add_test < Minitest::Test
     end
 
 end
-

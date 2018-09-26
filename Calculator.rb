@@ -1,5 +1,9 @@
-require_relative "mult.rb"
-require_relative "div.rb"
-require_relative "sub.rb"
-require_relative "add.rb"
+
+
+def calculator(num1, x ,num2)
+    num1 = gets.chomp
+    num2 = gets.chomp
+end
+
+
 

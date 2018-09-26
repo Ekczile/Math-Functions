@@ -1,5 +1,5 @@
 require "minitest/autorun"
-require_relative "mult.rb"
+require_relative "math.rb"
 
 class Add_test < Minitest::Test
     def test_1
